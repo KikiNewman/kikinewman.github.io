@@ -1,22 +1,29 @@
 body{
 	font-family: 'Open Sans',sans-serif;
-	background-color: black;
+    background-color: #dac1f3;
+    
 }
 #container{
 	width: 1000px;
 	height: 550px;
-	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(bgImg.jpg);
-	margin: 20px auto;	
+	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(https://images.unsplash.com/photo-1465101162946-4377e57745c3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1357&q=80);
+    background-repeat: no-repeat;
+	margin: 20px auto;
+    align-self: center;	
+    border-radius: 5px;
+
 }
 #calculator{
 	width: 320px;
 	height: 520px;
-	background-color: #eaedef;
+	background-color: #2c1f41;
 	margin: 0 auto;
 	top: 20px;
 	position: relative;
 	border-radius: 5px;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-color: #eaedef;
+    border-style: solid;
+	box-shadow: 0 4px 8px 0 rgba(245, 241, 241, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 #result{
 	height: 120px;
@@ -34,10 +41,12 @@ body{
 	height: 60px;
 	margin: 10px 20px;
 	font-size: 30px;
+    color: #eaedef;
 }
 #keyboard{
 	height: 400px;
 }
+
 .operator, .number, .empty{
 	width: 50px;
 	height: 50px;
@@ -49,7 +58,7 @@ body{
 	font-size: 15px;
 }
 .number, .empty{
-	background-color: #000000;
+	background-color: #eaedef;
 }
 .number, .operator{
 	cursor: pointer;
